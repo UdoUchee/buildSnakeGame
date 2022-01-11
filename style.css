@@ -1,0 +1,29 @@
+html, body {
+  margin:  10;
+  padding: 10;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: solid 1px #000;
+  background-color: teal;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background-color: teal;
+}
+
+.snake {
+  border: #000;
+  background-color: rgb(1, 26, 1);
+}
+
+.apple{
+  background-color: rgb(173, 41, 41);
+  border-radius: 50px;
+}
