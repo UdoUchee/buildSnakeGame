@@ -9,21 +9,24 @@ html, body {
   width: 200px;
   height: 200px;
   border: solid 1px #000;
-  background-color: teal;
+  background-color:#000;
 }
 
 .square {
   width: 20px;
   height: 20px;
-  background-color: teal;
+  background-color: #000;
 }
 
 .snake {
   border: #000;
-  background-color: rgb(1, 26, 1);
+  background-color: rgb(10, 231, 10);
+  /* padding: 0;
+  margin:0;
+  border: dotted 0.5px black; */
 }
 
 .apple{
-  background-color: rgb(173, 41, 41);
+  background-color: rgb(241, 9, 9);
   border-radius: 50px;
 }

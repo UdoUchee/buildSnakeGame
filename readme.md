@@ -31,14 +31,14 @@
     - //create array of squares
     - //draw snake on the grid
 
-1. Move Snake
+2. Move Snake
   > pseudocode:
     - //remove last element from our currentSnake array
     - //remove styling from last element
     - //add sqaure in direction we are heading
     - //add styling so we can see it
 
-1. Move Snake on a time loop
+3. Move Snake on a time loop
   > pseudocode:
     - //make snake move across the grid
     - //navigate snake on the grid using keyCodes
@@ -46,9 +46,9 @@
         - // 38 is for the up arrow
         - // 37 is for the left arrow
         - // 40 is for the down arrow
-    - gfgg
+  
 
-1. Ensure that Snake does not continue after hitting any of the 4 walls
+4. Ensure that Snake does not continue after hitting any of the 4 walls
   > pseudocode:
     - // Write if statament to check:
       - // if snake has hit bottom
@@ -57,9 +57,26 @@
       - // if snake has hit top
       - // using Modulus
 
-1. Make Apples appear randomly on the grid
+5. Make Apples appear randomly on the grid
   > pseudocode:
     - //  Generate random numbers
+
+
+6. Make Smake eat apple
+  > pseudocode:
+    - // remove the class of apple
+    - // grow our snake by adding class of snake to it
+    - // grow our snake array
+    - // generate a new apple
+    - // add one to the score
+    - // speed up our snake
+
+7. Enable start / Restart button.
+  > pseudocode:
+    - // remove the snake
+    - // remove the apple
+    - // re-add new score to the browser
+    - // re-add class of snake to currentSnake
 
 > For more on methods used check : 
  -  [math method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
@@ -79,6 +96,6 @@ IDE
 [Ania Kubow](https://scrimba.com/allcourses)
 
 ## To DO
-  - 
+  - display Game Ended (once snake hits wall or itself)
   - 
 
